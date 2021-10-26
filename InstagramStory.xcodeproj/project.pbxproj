@@ -11,6 +11,8 @@
 		51771B702726230000334C4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51771B6F2726230000334C4A /* ContentView.swift */; };
 		51771B722726230100334C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51771B712726230100334C4A /* Assets.xcassets */; };
 		51771B752726230100334C4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51771B742726230100334C4A /* Preview Assets.xcassets */; };
+		51771B7C27263A8700334C4A /* LoadingRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51771B7B27263A8700334C4A /* LoadingRectangle.swift */; };
+		51771B7E27263DA700334C4A /* StoryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51771B7D27263DA700334C4A /* StoryTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		51771B6F2726230000334C4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51771B712726230100334C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51771B742726230100334C4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51771B7B27263A8700334C4A /* LoadingRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingRectangle.swift; sourceTree = "<group>"; };
+		51771B7D27263DA700334C4A /* StoryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				51771B742726230100334C4A /* Preview Assets.xcassets */,
+				51771B7D27263DA700334C4A /* StoryTimer.swift */,
+				51771B7B27263A8700334C4A /* LoadingRectangle.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51771B702726230000334C4A /* ContentView.swift in Sources */,
+				51771B7E27263DA700334C4A /* StoryTimer.swift in Sources */,
+				51771B7C27263A8700334C4A /* LoadingRectangle.swift in Sources */,
 				51771B6E2726230000334C4A /* InstagramStoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
